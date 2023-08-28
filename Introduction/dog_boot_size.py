@@ -28,7 +28,6 @@ import statsmodels.formula.api as smf
 # This says that boot_size is explained by harness_size
 formula = "boot_size ~ harness_size"
 
-
 # Create the model, but don't train it yet
 model = smf.ols(formula = formula, data = dataset)
 
